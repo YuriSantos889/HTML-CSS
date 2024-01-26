@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho da imagem no seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="/imagens/Foto-P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="/imagens/Foto-M.png" type="image/png">
+        <img src="imagens/Foto-G.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midias/drive-breakbeat-173062.mp3" controls ></audio>
+    <!--Segunda forma abaixo faz com que o navegador carregue em sequência caso a primeira não funcione, basta adicionar outros audios em outros formatos abaixo// mp3 deve ser usado type="audio/mpeg"-->
+    <audio controls >
+        <source src="midias/titanium-170190.mp3" type="audio/mpeg">
+        <source src="midias/titanium-170190.ogg" type="audio/ogg">
+    </audio>
+</body>
+</html>
