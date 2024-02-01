@@ -1,0 +1,8 @@
+note
+
+background-size:cover; faz com que a imagem seja 100% exibida sem que a imagem seja distorcida.
+background-attachment: fixed; faz com que o fundo de imagem seja fixo enquanto vc rola o conteúdo da página para baixo
+
+shorthand background: color > image > position > repeat > [size] > attachment
+
+posição de caixa: você pode mexer em top e left caso a position do conteiner seja relative e position do conteudo seja absoluto, para centralizar o conteudo dentro do conteiner usaremos top 50% e left 50% com transform: translate(-50%, -50%) **não funciona se não colocar a posição dos dois**
