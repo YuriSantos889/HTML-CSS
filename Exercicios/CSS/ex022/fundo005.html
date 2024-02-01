@@ -3,23 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de imagem</title>
+    <title>Teste de imagem fixa</title>
     <style>
+        
+        body{
+            height:100vh;
+            /*background-color: black;
+            background-repeat: no-repeat;
+            background-image: url(imagens/wallpaper002.jpg);
+            background-position: center top;
+            background-size: cover;
+            background-attachment: fixed;*/
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
+        }
         main{
-            width: 400px;
+            max-width: 580px;
             border: 1px solid black;
             padding:10px;
             text-align: justify;
             margin:auto;
             background-color: white;
         }
-        body{
-            height:100vh;
-            background-color: black;
-            background-repeat: no-repeat;
-            background-image: url(imagens/wallpaper002.jpg);
-            background-position: center top;
-            background-size: cover;
+        h1{
+            text-align: center;
         }
     </style>
 </head>
