@@ -16,12 +16,16 @@
         }
         caption{
             font-size: 1.5em;
+            margin-top: 30px;
             padding-bottom: 10px;
             background-color: lightgray;
         }
         thead, tfoot{
             background-color: gray;
             color: white;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
         }
         th,td{
             border:1px solid black;
@@ -32,10 +36,6 @@
         }
         th.num{
             text-align: right;
-        }
-        th.vazio{
-            border: none;
-            background-color: white;
         }
         .posicao{
             text-align: center;
@@ -85,8 +85,8 @@
             </tr>
         </tbody>
         <tfoot>
-            <th class="vazio"></th>
-            <th scope="row">Total da população</th>
+            
+            <th scope="row" colspan="2">Total da população</th>
             <td class="num"><strong>203 062 512</strong></td>
         </tfoot>
     </table>
