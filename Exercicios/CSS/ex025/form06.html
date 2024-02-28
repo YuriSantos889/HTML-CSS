@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Games</title>
+</head>
+<body>
+    <form action="" method="post">
+        <p>
+            <label for="ivdg">Video Games:</label>
+            <select name="vdg" id="ivdg">
+                <option value="" selected>--- Escolha ---</option>
+                <optgroup label="Marcas Famosas">
+                    <option value="PS">PlayStation</option>
+                    <option value="NT">Nintendo</option>
+                    <option value="XB">Xbox</option>
+                </optgroup>
+            </select>
+        </p>
+            <p>
+                <label for="ijogo">Jogos preferidos:</label>
+                <input list="lstjogo" name="Jogo" id="ijogo">
+                <datalist id="lstjogo">
+                    <option value="God of War"></option>
+                    <option value="Super Mario"></option>
+                    <option value="Hallo"></option>
+                </datalist>
+            </p>
+            <p>
+                <label for="imsg">Sugestões para jogos:</label> <br>
+                <textarea name="msg" id="imsg" cols="40" rows="25"></textarea>
+            </p>
+        
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
