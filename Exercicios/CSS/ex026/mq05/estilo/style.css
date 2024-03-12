@@ -26,7 +26,6 @@ header nav{
     display: none;
     margin: auto;
     text-align: center;
-    transition: 1s;
 }
 
  header li{
@@ -42,6 +41,7 @@ header a{
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.151);
     padding: 8px 0;
+    text-align: center;
 }
 
 nav a:hover{

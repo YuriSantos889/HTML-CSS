@@ -1,19 +1,28 @@
 @charset "UTF-8";
 
 @media screen and (min-width:768px){
+
+    i#menu{
+        display: none;
+    }
+
     header nav{
         display: block;
     }
 
-   
-    }
-
-    nav> ul {
+    nav ul {
         text-align: start;
     }
-        
+
+    nav> ul > li  {
+       display: inline-block;
+       text-align: start;
+       margin-left: 5px;
     }
-    i#menu{
-        display: none;
+
+    nav> ul> li> a{
+        padding: 10px;
     }
+
+    
 }
